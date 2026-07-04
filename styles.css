@@ -1,3 +1,18 @@
-body {
+/* body {
   background-color: lightskyblue;
+} */
+
+tbody .read {
+  background-color: lightgreen;
+}
+
+tbody .in-progress {
+  background-color: skyblue;
+}
+
+tbody {
+  background-color: lightpink;
+}
+span {
+  display: inline-block;
 }
