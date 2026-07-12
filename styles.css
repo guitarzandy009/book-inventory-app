@@ -1,16 +1,12 @@
-/* body {
-  background-color: lightskyblue;
-} */
-
-tbody .read {
+tr.read {
   background-color: lightgreen;
 }
 
-tbody .in-progress {
+tr.in-progress {
   background-color: skyblue;
 }
 
-tbody {
+tr.to-read {
   background-color: lightpink;
 }
 span {
