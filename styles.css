@@ -1,20 +1,57 @@
 body {
-  color:antiquewhite;
+  color: antiquewhite;
   background-color: #222;
 }
 
 tr[class="read"] {
-  background-image: linear-gradient(180deg, #0D2818 0%, #134E4A 50%, #0F3D3E 100%);
+  background-image: linear-gradient(
+    180deg,
+    #0d2818 0%,
+    #134e4a 50%,
+    #0f3d3e 100%
+  );
 }
 
 tr[class="in-progress"] {
-  background-image: linear-gradient(180deg, #0A192F 0%, #1B3A5C 50%, #2C5282 100%);
+  background-image: linear-gradient(
+    180deg,
+    #0a192f 0%,
+    #1b3a5c 50%,
+    #2c5282 100%
+  );
 }
 
 tr[class="to-read"] {
-  background-image: linear-gradient(180deg, #1A1A2E 0%, #241B36 50%, #2E1F3E 100%);
-  
+  background-image: linear-gradient(
+    180deg,
+    #1a1a2e 0%,
+    #241b36 50%,
+    #2e1f3e 100%
+  );
 }
+
 span {
   display: inline-block;
 }
+
+tr[class="read"] span[class="status"] {
+  /* background-image: linear-gradient(180deg, #0D2818 0%, #134E4A 50%, #0F3D3E 100%); */
+  border: 1px solid white;
+  border-radius: 1rem;
+}
+
+tr[class="in-progress"] span[class="status"] {
+  /* background-image: linear-gradient(180deg, #0D2818 0%, #134E4A 50%, #0F3D3E 100%); */
+  border: 1px solid white;
+  border-radius: 1rem;
+}
+
+tr[class="to-read"] span[class="status"] {
+  /* background-image: linear-gradient(180deg, #0D2818 0%, #134E4A 50%, #0F3D3E 100%); */
+  border: 1px solid white;
+  border-radius: 1rem;
+}
+
+/* span[class="rate"] {
+  border: 1px solid red;
+} */
